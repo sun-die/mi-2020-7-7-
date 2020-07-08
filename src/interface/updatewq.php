@@ -8,6 +8,7 @@ $sql = "SELECT * FROM `cart` WHERE `product_id`='$id'";
 $res = mysqli_query($conn,$sql);
 $row = mysqli_fetch_assoc($res);
 $num = $row['product_num'];
+
 if($type=='add'){	
 	$num = $num+1;
 	$sql = "UPDATE `cart` SET `product_num`='$num' WHERE `product_id`='$id'";

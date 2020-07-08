@@ -19,6 +19,7 @@ if($rows>0){
 }
 
 $result = mysqli_query($conn,$sql);
+
 if($result){
 	echo json_encode(array("code"=>1));
 }else{

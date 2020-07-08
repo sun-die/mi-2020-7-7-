@@ -197,10 +197,17 @@ body{
 .list-header div{
     float: left;
 }
+/* .goods-select{
+    width: 110px;
+    height: 69px;
+    display:  block;
+    float: left;
+} */
 .goods-img{
     width: 120px;
     height: 70px;
 }
+
 .goods-name{
     width: 380px;
 }
@@ -233,12 +240,21 @@ body{
     display: table-cell;
     vertical-align: middle;
 }
+.item-table .goods-id{
+    display: none;
+}
+
 .item-box .goods-img{
     width: 80px;
     height: 80px;
     padding-right: 40px;
     overflow: hidden;
 }
+.item-box .goods-img  img{
+    width: 80px;
+    height: 80px;
+}
+
 .goods-name>h3{
     line-height: 1;
     margin-top: 8px;
@@ -256,7 +272,7 @@ body{
     color: #424242;
 }
 .change-goods-num{
-    width: 148px;
+    width: 150px;
     height: 38px;
     border: 1px solid #e0e0e0;
     text-align: center;
@@ -339,7 +355,8 @@ body{
     color: #ff6700;
 }
 .total-price{
-    width: 380px;
+    min-width: 500px;
+    height: 50px;
     padding-left: 13px;
     color: #ff6700;
     float: right;
@@ -362,4 +379,156 @@ body{
     background: #ff6700;
     border-color: #ff6700;
     color: #fff;
+}
+
+
+/* 尾部 */
+.site-footer .footer-service {
+    padding: 27px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.site-footer .list-service {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.site-footer .list-service li {
+    float: left;
+    width: 19.8%;
+    height: 25px;
+    border-left: 1px solid #e0e0e0;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+}
+.site-footer .list-service li:hover a{
+    color: #ff6700;
+}
+.site-footer .list-service li:first-child {
+    border-left: 0;
+}
+.site-footer .list-service a {
+    color: #616161;
+    -webkit-transition: color .2s;
+    transition: color .2s;
+}
+
+
+.site-footer .footer-links {
+    padding: 40px 0;
+}
+.site-footer .footer-links .col-links {
+    float: left;
+    width: 160px;
+    height: 112px;
+    margin: 0;
+}
+.site-footer .footer-links .col-links dt {
+    margin: -1px 0 26px;
+    font-size: 14px;
+    line-height: 1.25;
+    color: #424242;
+}
+.site-footer .footer-links .col-links dd {
+    margin: 10px 0 0;
+    font-size: 12px;
+}
+.site-footer .footer-links .col-links a {
+    color: #757575;
+}
+.site-footer .footer-links .col-links a:hover {
+    color: #ff6700;
+}
+
+
+.site-footer .footer-links .col-contact {
+    float: right;
+    width: 251px;
+    border-left: 1px solid #e0e0e0;
+    text-align: center;
+    color: #616161;
+}
+.site-footer .footer-links .col-contact .phone {
+    font-size: 22px;
+    line-height: 1;
+    color: #ff6700;
+}
+.site-footer .footer-links .col-contact p {
+    margin: 0 0 5px 0;
+    font-size: 12px;
+}
+.btn-line-primary {
+    border-color: #ff6700;
+    background: #fff;
+    color: #ff6700;
+}
+.btn-line-primary:hover {
+    border-color: #ff6700;
+    background: #ff6700;
+    color: #fff;
+}
+.btn-small {
+    width: 118px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+}
+.btn {
+    display: inline-block;
+    width: 158px;
+    height: 38px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #b0b0b0;
+    font-size: 14px;
+    line-height: 38px;
+    text-align: center;
+    color: #b0b0b0;
+    cursor: pointer;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+.site-footer .footer-links .col-contact .follow {
+    font-size: 12px;
+    margin-top: 10px;
+    position: relative;
+}
+.site-footer .footer-links .col-contact .follow .wb {
+    background: url(https://cdn.cnbj1.fds.api.mi-img.com/staticsfile/global/wb.png) 50% 0 no-repeat;
+    background-size: cover;
+}
+.site-footer .footer-links .col-contact .follow .wx {
+    background: url(https://cdn.cnbj1.fds.api.mi-img.com/staticsfile/global/wx.png) 50% 0 no-repeat;
+    background-size: cover;
+}
+.site-footer .footer-links .col-contact .follow a {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 6px;
+    margin-top: -3px;
+}
+.site-footer .footer-links .col-contact .follow img {
+    width: 126px;
+    height: 126px;
+    z-index: 2;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    display: none;
+}
+.site-info{
+    margin-top: 20px;
+}
+.ndash, .sep {
+    margin: 0 .25em;
+    font-family: sans-serif;
+}
+.info-text a:hover{
+    color: #ff6700;
+
+}
+.info-links{
+    margin-top: 20px;
 }
