@@ -304,12 +304,15 @@ body{
     background: #fff;
     color: #616161;
 }
+<<<<<<< HEAD
 .site-header .search-btn:hover{
     background: #ff6700;
     color: #fff;
 }
 
 
+=======
+>>>>>>> 63454431f204f84df1694e9f5d2c2bf6477939a6
 /* 网页广告图 */
 .home-hero-container {
     position: relative;
@@ -995,11 +998,19 @@ body{
     border-right: 1px solid #f5f5f5;
     cursor: pointer;
 }
+<<<<<<< HEAD
 .nav-fixed  .mlgj8{
     border-bottom: 1px solid #f5f5f5;
     visibility: hidden;
 }
 .nav-fixed   .child-active{
+=======
+.nav-fixed .mlgj8{
+    border-bottom: 1px solid #f5f5f5;
+    visibility: hidden;
+}
+.nav-fixed .child-active{
+>>>>>>> 63454431f204f84df1694e9f5d2c2bf6477939a6
     background-color: #ff6700;
     color: #fff;
 }

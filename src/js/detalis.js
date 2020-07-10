@@ -23,7 +23,11 @@
     },
     
   })   
+<<<<<<< HEAD
   for( var i=0;i<mySwiper.pagination.bullets.length;i++){
+=======
+  for(i=0;i<mySwiper.pagination.bullets.length;i++){
+>>>>>>> 63454431f204f84df1694e9f5d2c2bf6477939a6
       mySwiper.pagination.bullets[i].onclick=function(){
       this.click();
       };

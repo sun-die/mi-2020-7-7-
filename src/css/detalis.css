@@ -307,12 +307,15 @@ body{
     background: #fff;
     color: #616161;
 }
+<<<<<<< HEAD
 .site-header .search-btn:hover{
     background: #ff6700;
     color: #fff;
 }
 
 
+=======
+>>>>>>> 63454431f204f84df1694e9f5d2c2bf6477939a6
 
 .xm-product-box {
     position: relative;

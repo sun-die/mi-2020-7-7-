@@ -24,8 +24,11 @@ $(document).ready(function() {
     
   });
 })
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 63454431f204f84df1694e9f5d2c2bf6477939a6
 // 点击增加/删除
      function fn(){
        
@@ -56,7 +59,12 @@ $(document).ready(function() {
                     var  tal= num*price;
                      $(that).parent().parent().parent().find('.goods-total').text(tal);
                       sum-=price;
+<<<<<<< HEAD
                                          
+=======
+                     
+                     
+>>>>>>> 63454431f204f84df1694e9f5d2c2bf6477939a6
                      $('.total-price  em').text(sum);
                 }  
              })
@@ -86,6 +94,7 @@ $(document).ready(function() {
 
     function fn1(){
           var this_id=  $(this).parent().parent().find('.goods-id').text();
+<<<<<<< HEAD
 
           var   num =  parseInt($(this).parent().prev().text())  ;
 
@@ -96,6 +105,13 @@ $(document).ready(function() {
             console.log('111');
             
              console.log(  $(this).parent().prev()  );     
+=======
+          var   num   = $(this).parent().next().next().children().find('span').text();
+          var   price = parseInt($(this).parent().parent().parent().find('.goods-price').text()) ;
+          var   count=$('.cart-total  i').text();
+          var  sum=  parseInt( $('.total-price  em').text());
+
+>>>>>>> 63454431f204f84df1694e9f5d2c2bf6477939a6
              console.log(sum);
              console.log(num);
              console.log(price);
@@ -112,6 +128,7 @@ $(document).ready(function() {
             if(json.code==1){
                 alert('商品删除成功');
                 
+<<<<<<< HEAD
                 $(that).parent().parent().parent().remove();
                  count--;
                   
@@ -125,6 +142,22 @@ $(document).ready(function() {
                   
                 $('.cart-total  i').text(count);
                 $('.total-price  em').text(sum);
+=======
+                // $(that).parent().parent().parent().remove();
+                 count--;
+                  
+
+                 var  cha=num*price;
+                 sum1=sum-cha;
+                 console.log('1'+sum1);
+                 
+                 var sum2 = sum-(num*price);
+
+                  console.log(sum2);
+                  
+                $('.cart-total  i').text(count);
+                // $('.total-price  em').text(sum);
+>>>>>>> 63454431f204f84df1694e9f5d2c2bf6477939a6
                 
              }
           })  
